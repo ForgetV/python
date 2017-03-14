@@ -7,7 +7,7 @@ class Ship():
 
         self.ai_settings=ai_settings
 
-        self.image=pygame.image.load("/Users/demon/PythonTest/pythonGame/images/ship.bmp")
+        self.image=pygame.image.load("/usr/python/business/AlienGame/images/ship.bmp")
         self.rect=self.image.get_rect()
         self.height=self.rect.right-self.rect.left
         self.screen_rect=screen.get_rect()
